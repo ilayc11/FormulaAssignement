@@ -1,5 +1,6 @@
 # FormulaAssignement
-## OS USED: Win11
+OS USED: Win11
+## Getting Things to run
 At the start, I downloaded the FSDS Asset and cloned the repository. I installed the modules from requirements.txt and tried to run autonomous_example.py, but it wouldn't let me because of problems with backports.ssl_match_hostname, so I had to reinstall it.
 Then I ran the file again and got this:
 
@@ -19,6 +20,8 @@ I realized that it connected but wasn't recognizing an entity called 'Lidar'. I 
 
 ![image](https://github.com/user-attachments/assets/a198c87c-75ae-43b7-b32a-4dc542351bbf)
 
+
+## Adding The Camera
 Next, I added a new camera without changing its position from the camera_color_png.py, and this is the image I got:
 
 ![example](https://github.com/user-attachments/assets/8ca7f901-906f-4b0b-9cf1-5bf5a00eb9b8)
@@ -83,6 +86,9 @@ At this point, my settings.json looks like this:
 }
 ```
 I changed the "Z" value of the camera for a better position.
+
+
+## Creating Live Feed 
 
 After that, I downloaded the OpenCV module for Python, saw how the camera_color_png.py file works, and added the relevant lines from it to the autonomous_example.py. Then I added the relevant commands from the OpenCV module for reading images, and now we get live feedback (by creating and reading a PNG file in a loop).
 
