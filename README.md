@@ -8,6 +8,8 @@ now i got this error msgpackrpc.error.RPCError: rpclib: function 'getLidarData' 
 now i added a new camera without changing it position from the camera_color_png.py and this is the image i got
 ![example](https://github.com/user-attachments/assets/8ca7f901-906f-4b0b-9cf1-5bf5a00eb9b8)
 at this point in time my settings.json looks like this:
+```json
+Here goes your json obj
 {
   "SettingsVersion": 1.2,
   "Vehicles": {
@@ -62,3 +64,4 @@ at this point in time my settings.json looks like this:
     }
   }
 }
+```
