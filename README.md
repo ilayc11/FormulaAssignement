@@ -65,3 +65,8 @@ at this point in time my settings.json looks like this:
   }
 }
 ```
+
+after that i downloaded openCV module for python, saw how the camera_color_png.py file works and added the relevent lines from it to the autonomous_example.py. after that i added the relevent command from the opencv module for reading images and now we god live feedback (by creating and reading a png file in a loop)
+(![Recording2024-11-27121530-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/6ce11d04-e6f3-4088-8ae8-ac3f1478c0c0)
+
+
