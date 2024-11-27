@@ -1,5 +1,5 @@
 # FormulaAssignement
-OS USED: Win11
+OS Used: Win11
 
 
 Assignment Chosen: Assignment 4: Simulator-Based Task
